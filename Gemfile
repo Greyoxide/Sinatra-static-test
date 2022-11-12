@@ -8,3 +8,5 @@ gem 'sprockets', '~> 4.1'
 gem "slim", "~> 4.1"
 
 gem "sinatra", "~> 3.0"
+
+gem "uglifier", "~> 4.2"
