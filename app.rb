@@ -5,7 +5,6 @@ require 'slim'
 require 'sprockets'
 require 'uglifier'
 require 'sass'
-require 'coffee-script'
 require 'execjs'
 
 class App < Sinatra::Base
