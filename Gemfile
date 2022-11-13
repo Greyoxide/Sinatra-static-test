@@ -16,3 +16,5 @@ gem "sass", "~> 3.7"
 gem "puma", "~> 6.0"
 
 gem "puma-metrics", "~> 1.3"
+
+gem "sassc", "~> 2.4"
