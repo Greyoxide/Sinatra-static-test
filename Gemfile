@@ -12,3 +12,7 @@ gem "sinatra", "~> 3.0"
 gem "uglifier", "~> 4.2"
 
 gem "sass", "~> 3.7"
+
+gem "puma", "~> 6.0"
+
+gem "puma-metrics", "~> 1.3"

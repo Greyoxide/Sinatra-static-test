@@ -9,6 +9,10 @@ require 'execjs'
 
 class App < Sinatra::Base
   # Main app loop class
+  
+  configure {
+    set :server, :puma
+  }
 
   # Set sprockets env
   set :environment, Sprockets::Environment.new
@@ -30,4 +34,6 @@ class App < Sinatra::Base
   get '/' do
     slim :index
   end
+  
+  run! if app_file == $0
 end
